@@ -21,3 +21,19 @@ footer{
 main{
     padding: 20px;
 }
+/*article{
+    float: left;
+    width:73%
+}
+aside{
+    float: right;
+    width:25%
+}*/*
+.block{
+    /*background-color: white;*/
+    padding: 20px;
+    margin:20px 10px;
+    border-radius: 10px;
+    background-color: #E07A5F;
+    background-size: cover;
+}
