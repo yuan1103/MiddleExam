@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color:#E07A5F;
+    text-align: center;
+    color: #3D405B;
+    padding: 20px;
+    font-family: 微軟正黑體;
+}
+body{
+    background-color:#F4F1DE;
+    margin:0px;
+}
+footer{
+    background-color: #F2CC8F;
+    text-align: center;
+    color: #3D405B;
+    padding: 10px;
+}
+main{
+    padding: 20px;
+}
