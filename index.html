@@ -7,12 +7,10 @@
     <title>個人網頁</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <style>
-    *{
-        width: 1024px;
-        margin: auto;
-    }
+    
 </style>
 <body>
     <header>
@@ -37,44 +35,90 @@
                 <li>學校: 中原大學 國際經營與貿易學系</li>
             </ul>  
         </p>
+        <br><br><br>
         <h2>必須非常努力才會顯得毫不費力</h2>
     </section>
     <section class="skill" id="skill">
         <h2>個人專業技能</h2>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <canvas id="chart" width="250" height="70"></canvas>
+        <script>
+            var ctx = document.getElementById('chart').getContext('2d');
+            var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+            labels: ["JAVA", "PYTHON", "HTML", "CSS", "JavaScript"],
+            datasets: [{
+                label: '個人專業技能',
+                data: [75, 80, 70, 60, 20],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                ],
+                borderWidth: 1
+                }]
+            }
+        });
+        </script>
+       
     </section>
     <section class="experience" id="experience">
         <h2> 個人經歷</h2>
                 <div>
-                    <img src="image/work.jpg" style="border-radius:15%; width:250px;height:300px;float: left;" >
-                    <P style="text-align: center; ">
+                    <img src="image/work.jpg" style="border-radius:15%; width:250px;height:300px;float: left;margin:10px 10px 10px 200px;" >
+                    <P style="text-align:center; ">
                         <br><br><br>
                         工作經驗-50嵐 <br>
-                        從大一下學期開始就在家裡附近的50嵐飲料店打工~
+                        大一下學期開始就開始在50嵐飲料店打工~<br>
+                        從一個甚麼茶都不會煮的小小菜鳥，到現在<br>
+                        輪到我要教新人泡飲料，我覺得我學到最多<br>
+                        的是溝通及表達的技巧，不論是與同事們做<br>
+                        最有效率最快速的溝通還是怎麼樣與客人清<br>
+                        楚地介紹我們的飲料，這些對我來說都是非<br>
+                        常寶貴的經驗~
                     </p>
                 </div>
                 <div style="clear:left">
-                    <img src="image/2023-04-04 231059.png" style="border-radius:15%; width:250px;height:250px; float: left;">
+                    <img src="image/2023-04-04 231059.png" style="border-radius:15%; width:250px;height:250px; float: left; margin:10px 10px 10px 200px;">
                     <p style="text-align: center;">
                         <br><br><br>
                         參與PBL課程 <br>
-                        大一經濟學課程與工業工程學系合作，協助他們發現問題，並有效地提生產線效率
+                        大一經濟學課程與工業工程學系合作，協助<br>
+                        他們發現問題，並有效地提生產線效率，這<br>
+                        是我大學以來第一次與外系的人接觸，甚至<br>
+                        是要合作完成一個報告，藉由這次的機會我<br>
+                        也更加了解工業工程學系學的東西，也把自<br>
+                        己在經濟學課程學到的東西跟他們說，互相<br>
+                        觀摩學習，讓我學到非常多的經驗~
                     </p> 
                 </div>
                 <div style="clear:left">
-                    <img src="image/S__19693570.jpg" style="border-radius:15%; width:250px;height:200px; float:left;">
+                    <img src="image/S__19693570.jpg" style="border-radius:15%; width:250px;height:200px; float:left;margin:10px 10px 10px 200px;">
                     <br><br><br>
                     <p style="text-align: center;">
                         取得人生保險業務員證照<br>
-                        大三上學期因為選修保險學的選修課，再加上對這個領域有一點興趣，就決定要去考，也順利地拿到我人生第一張證照!
+                        大三上學期因為選修保險學的選修課，再加上<br>
+                        對這個領域有一點興趣，就決定要去考，最終<br>
+                        也順利地拿到我人生第一張證照!
                     </p> 
                             
                 </div>
     </section>
     <footer id="footer">
         <h2>聯絡資訊 <br></h2>
-            <a href="https://www.facebook.com/hank.chang.330/" target="_blank"><img src="/image/fb.png" style="width: 25px;height: 25px;"></a> 
-            <a href="https://www.instagram.com/yuan90_11_03/" target="_blank" ><img src="/image/IG.png" style="width: 25px;height: 25px;"></a>
-            <a href="hankz9502@gmail.com" target="_blank"><img src="/image/email.png" style="width: 25px;height: 25px;"></a>
+            <a href="https://www.facebook.com/hank.chang.330/" target="_blank"><img src="image/fb.png" style="width: 25px;height: 25px;"></a> 
+            <a href="https://www.instagram.com/yuan90_11_03/" target="_blank" ><img src="image/IG.png" style="width: 25px;height: 25px;"></a>
+            <a href="mailto:hankz9502@gmail.com" target="_blank"><img src="image/email.png" style="width: 25px;height: 25px;"></a>
     </footer>
 
 </body>

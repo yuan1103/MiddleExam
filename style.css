@@ -1,12 +1,16 @@
 *{
     box-sizing: border-box;
+    width: auto;
+    margin: auto;  
 }
+
+
 header{
-    background:#151515 url("/image/673C0A7F-E965-449A-8D82-336B1FED2FE7.jpg")no-repeat left bottom;
+    background-image:url("image/background.jpg");
     background-size: cover;
     text-align: center;
     color: #3D405B;
-    padding: 80px;
+    padding: 100px;
     font-family:"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 	font-size: 1.8rem;
     opacity: 0.6;
@@ -19,8 +23,10 @@ header{
 }
 
 nav a {
+    color: #9c6644;
     padding: 14px 16px;
     display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 nav a:hover{
