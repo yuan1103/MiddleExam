@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     width: auto;
-    margin: auto;  
+    margin: auto; 
+    font-family:'Noto Sans TC',sans-serif !important;
 }
 
 
@@ -9,9 +10,9 @@ header{
     background-image:url("image/background.jpg");
     background-size: cover;
     text-align: center;
-    color: #3D405B;
+    color: #000000;
     padding: 100px;
-    font-family:"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: Raleway,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 	font-size: 1.8rem;
     opacity: 0.6;
 }
@@ -19,14 +20,14 @@ header{
     background-color: #E9EDC9;
     color: #9c6644;
     text-align: center;
-    font-family: 微軟正黑體
 }
 
 nav a {
     color: #9c6644;
     padding: 14px 16px;
     display: inline-block;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:'Noto Sans TC',sans-serif !important;
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;*/
 }
 
 nav a:hover{
@@ -42,15 +43,17 @@ footer{
     text-align: center;
     color: #3D405B;
     padding: 10px;
-    font-family: 'Noto Sans TC',sans-serif !important;;
+    font-family: 'Noto Sans TC',sans-serif !important;
+    font-size: 20px;
 }
 .about{
     background-color: #E9EDC9;
     padding: 40px;
-    margin: 15px 0px;
+    margin: 15px 0px 0px 0px;
     border-radius: 10px;
     background-size: cover;
     height: 300px;
+   
 }
 .skill{
     background-color: #E9EDC9;
@@ -66,6 +69,7 @@ footer{
     border-radius: 10px;
     background-size: cover;
     height: 900px;
+    font-size: 20px;
 }
 
 
