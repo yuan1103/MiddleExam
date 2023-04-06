@@ -17,48 +17,49 @@
 <body>
     <header>
         <h1 >Welcome To My Web</h1>
+        <p class="site-title-sub"><b>The past can hurt. You can either run from it, or learn from it.</b></p>
     </header>
    
     <nav>
-        <a href="#about">個人基本資料</a>
-        <a href="#skill">個人專業技能</a>
-        <a href="#experience">個人經歷</a>
-        <a href="#footer">聯絡資訊</a>
+        <a href="#about"><b>INFORMATION</b></a>
+        <a href="#skill"><b>SKILLS</b></a>
+        <a href="#experience"><b>EXPERIENCE</b></a>
+        <a href="#footer"><b>CONTACT</b></a>
     </nav>
     <section class="about" id="about">
-        <h2>個人基本資料</h2>
+        <h2 style="font-size: 1 rem;">INFORMATION</h2>
         <img src="image/0021762A-A319-402E-BF5A-FF0E462ECA5B.jpg" style="border-radius: 50%; width: 200px; height: 200px; float: left; margin: 0px 250px 0px 100px;">
-        <p style="float: right; width:70% ;">
-            <ul>
-                <li>張耀元 Yao-Yuan Chang</li>
-                <li>個性: 隨和、樂觀 <br></li>
-                <li>興趣: 打籃球、羽球 <br></li>
-                <li>生日: 2001/11/03 <br></li>
-                <li>學校: 中原大學 國際經營與貿易學系</li>
-            </ul>  
+        <p style="float: right; width:60% ;">
+            <h3>
+                張耀元 Yao-Yuan Chang <br>
+                個性: 隨和、樂觀 <br>
+                興趣: 打籃球、羽球 <br>
+                生日: 2001.11.03 <br>
+                學校: 中原大學 國際經營與貿易學系
+            </h3>
         </p>
-        <br><br><br>
-        <h2 style="color:#6B705C; font-size: 20px;">必須非常努力才會顯得毫不費力</h2>
     </section>
     <section class="skill" id="skill">
-        <h2>個人專業技能</h2>
+        <h2>SKILLS</h2>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <canvas id="chart" width="300" height="70"></canvas>
         <script>
             var ctx = document.getElementById('chart').getContext('2d');
             var chart = new Chart(ctx, {
-            type: 'bar',
+            type: 'pie',
             data: {
             labels: ["JAVA", "PYTHON", "HTML", "CSS", "JavaScript"],
             datasets: [{
                 label: '個人專業技能',
                 data: [75, 80, 70, 60, 20],
                 backgroundColor: [
-                    'rgba(212, 163, 115, 1)',
-                    'rgba(165, 165, 141, 1)',
-                    'rgba(222, 182, 138, 1)',
-                    'rgba(107, 112, 92, 1',
-                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(96, 134, 166, 1)',
+                    'rgba(109, 153, 177, 1)',
+                    
+                    'rgba(158, 182, 192, 1)',
+                    
+                    'rgba(175, 192, 202, 1)',
+                    'rgba(164, 180, 189, 1)',
                 ],
                 borderWidth: 1
                 }]
@@ -68,20 +69,23 @@
        
     </section>
     <section class="experience" id="experience">
-        <h2> 個人經歷</h2>
+        <h2 >EXPERIENCE</h2>
                 <div>
                     <img src="image/work.jpg" style="border-radius:15%; width:250px;height:300px;float: left;margin:10px 10px 10px 200px;" >
                     <img src="image/work1.jpg" style="border-radius:15%; width:250px;height:300px;float: left;margin:10px 10px 10px 10px;" >
                     <P style="text-align:center;  ">
                         <br><br><br>
-                        <b>工作經驗-50嵐 <br></b>
-                        大一下學期開始就開始在50嵐飲料店打工~<br>
-                        從一個甚麼茶都不會煮的小小菜鳥，到現在<br>
-                        輪到我要教新人泡飲料，我覺得我學到最多<br>
-                        的是溝通及表達的技巧，不論是與同事們做<br>
-                        最有效率最快速的溝通還是怎麼樣與客人清<br>
-                        楚地介紹我們的飲料，這些對我來說都是非<br>
-                        常寶貴的經驗~
+                        <h2>Working experience <br></h2>
+                        <h3>
+                            從大一下開始，我成為了50嵐飲料店的 <br>
+                            工讀生，一開始的我連泡茶都需要思考 <br>
+                            許久，到現在我可以一邊應付外場的客 <br>
+                            人們，一邊教導新來的工作夥伴，這段 <br>
+                            期間除了學會如何製作飲料，同時也增 <br>
+                            進了與他人溝通的能力，這些技能讓我 <br>
+                            能在學校甚至未來職場上更加有效率， <br>
+                            真是個非常寶貴的經驗。
+                        </h3>
                     </p>
                 </div>
                 <div style="clear:left">
@@ -89,14 +93,16 @@
                     <img src="image/PBL.jpg" style="border-radius:15%; width:250px;height:300px;float: left;margin:10px 10px 10px 10px;" >
                     <p style="text-align: center;">
                         <br><br><br>
-                        <b>參與PBL課程 <br></b>
-                        大一經濟學課程與工業工程學系合作，協助<br>
-                        他們發現問題，並有效地提生產線效率，這<br>
-                        是我大學以來第一次與外系的人接觸，甚至<br>
-                        是要合作完成一個報告，藉由這次的機會我<br>
-                        也更加了解工業工程學系學的東西，也把自<br>
-                        己在經濟學課程學到的東西跟他們說，互相<br>
-                        觀摩學習，讓我學到非常多的經驗~
+                        <h2><b>PBL課程 <br></b></h2>
+                        <h3>
+                            大一經濟學課程與工業工程學系合作，協助<br>
+                            他們發現問題，並有效地提生產線效率，這<br>
+                            是我大學以來第一次與外系的人接觸，甚至<br>
+                            是要合作完成一個報告，藉由這次的機會我<br>
+                            也更加了解工業工程學系學的東西，也把自<br>
+                            己在經濟學課程學到的東西跟他們說，互相<br>
+                            觀摩學習，讓我學到非常多的經驗~
+                        </h3>
                     </p> 
                 </div>
                 <div style="clear:left">
@@ -104,19 +110,24 @@
                     <img src="image/S__19767299.jpg" style="border-radius:15%; width:250px;height:200px; float:left;margin:10px 10px 10px 10px;">
                     <br><br><br>
                     <p style="text-align: center;">
-                        <b>取得人生保險業務員證照<br></b>
-                        大三上學期因為選修保險學的選修課，再加上<br>
-                        對這個領域有一點興趣，就決定要去考，最終<br>
-                        也順利地拿到我人生第一張證照!
+                        <h2><b>人生保險業務員證照<br></b></h2>
+                        <h3>
+                            大三上學期因為修習了保險學的課程，激發了<br>
+                            我對這個領域的興趣，就決定要去考，最終也<br>
+                            順利地拿到我人生第一張證照!
+                        </h3>
                     </p> 
                             
                 </div>
     </section>
     <footer id="footer">
-        <h2>聯絡資訊 <br></h2>
-            <a href="https://www.facebook.com/hank.chang.330/" target="_blank"><img src="image/fb.png" style="width: 25px;height: 25px;"></a> 
-            <a href="https://www.instagram.com/yuan90_11_03/" target="_blank" ><img src="image/IG.png" style="width: 25px;height: 25px;"></a>
-            <a href="mailto:hankz9502@gmail.com" target="_blank"><img src="image/email.png" style="width: 25px;height: 25px;"></a>
+        <h2>CONTACT <br></h2>
+            <nav class="footer_nav">
+                <a href="https://www.facebook.com/hank.chang.330/" target="_blank"><img src="image/fb.png" style="width: 30px;height: 30px;"></a>
+                <a href="https://www.instagram.com/yuan90_11_03/" target="_blank" ><img src="image/IG.png" style="width: 30px;height: 30px;"></a>
+                <a href="mailto:hankz9502@gmail.com" target="_blank"><img src="image/email.png" style="width: 30px;height: 30px;"></a>
+                <h3 style="color: #313348;">地址: 桃園市中壢區中北路200號</h3>
+            </nav>
     </footer>
 
 </body>

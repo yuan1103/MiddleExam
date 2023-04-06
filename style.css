@@ -2,7 +2,8 @@
     box-sizing: border-box;
     width: auto;
     margin: auto; 
-    font-family:'Noto Sans TC',sans-serif !important;
+    font-family: 'Noto Sans TC',sans-serif !important;
+    
 }
 
 
@@ -12,66 +13,90 @@ header{
     text-align: center;
     color: #000000;
     padding: 100px;
-    font-family: Raleway,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 	font-size: 1.8rem;
     opacity: 0.6;
 }
     nav{
-    background-color: #E9EDC9;
+    background-color: #FFF5DA;
     color: #9c6644;
     text-align: center;
 }
 
 nav a {
-    color: #9c6644;
+    color: #8a5c3e;
     padding: 14px 16px;
     display: inline-block;
-    font-family:'Noto Sans TC',sans-serif !important;
+    font-family:Raleway,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;*/
 }
 
 nav a:hover{
-    background-color:#D4A373;
+    background-color:#D4C7B1;
+    color:white ;
+}
+.footer_nav{
+    background-color: #D4C7B1;
+    color: #9c6644;
+    text-align: center;
+}
+nav a:hover{
+    background-color:#9c917e;
     color:white ;
 }
 body{
-    background-color:#FAEDCD;
+    background-color:#FFF5DA;
     margin:0px;
 }
 footer{
-    background-color: #CCD5AE;
+    background-color: #D4C7B1;
     text-align: center;
-    color: #3D405B;
+    color: #313348;
     padding: 10px;
     font-family: 'Noto Sans TC',sans-serif !important;
     font-size: 20px;
 }
 .about{
-    background-color: #E9EDC9;
-    padding: 40px;
-    margin: 15px 0px 0px 0px;
+    background-color: #A0A181;
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
     border-radius: 10px;
     background-size: cover;
     height: 300px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.15rem;
+    color:#49453f;
    
 }
 .skill{
-    background-color: #E9EDC9;
+    background-color: #D4C7B1;
     padding: 20px;
     margin:15px 0px;
     border-radius: 10px;
     background-size: cover;
+    color:#49453f;
 }
 .experience{
-    background-color: #E9EDC9;
+    background-color: #A0A181;
     padding: 15px;
     margin:15px 0px;
     border-radius: 10px;
     background-size: cover;
-    height: 900px;
+    height: 950px;
     font-size: 20px;
+    color:#49453f;
+    text-align: center;
 }
-
+.site-title-sub::before,
+.site-title-sub::after {
+    content: "";
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    margin: 0 30px;
+    background-color:#49453f;
+    vertical-align: middle;
+    
+}
 
 /*@media screen and (max-width: 800px){
     article, aside{
