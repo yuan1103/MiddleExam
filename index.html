@@ -5,84 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>個人網頁</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    *{
+        width: 1024px;
+        margin: auto;
+    }
+</style>
 <body>
     <header>
-        <h1 >張耀元 Yao-Yuan Chang</h1>
+        <h1 >Welcome To My Web</h1>
     </header>
-    <link rel="stylesheet" href="style.css">
+   
     <nav>
-        <a href="#">個人基本資料</a>
-        <a href="#">個人經歷</a>
-        <a href="#">個人專業技能</a>
-        <a href="#">聯絡資訊</a>
-      </nav>
-    <main>
-        <article>
-
-            <section class="block">
-                
-            </section>
-            <section>
-                
-                <h2>個人基本資料</h2>
-                <img src="image/0021762A-A319-402E-BF5A-FF0E462ECA5B.jpg" style="border-radius: 50%;">
-                <p>
-                    <ul>
-                        <li>個性: 隨和、樂觀 <br></li>
-                        <li>興趣: 打籃球、羽球 <br></li>
-                        <li>生日: 2001/11/03 <br></li>
-                        <li>學校: 中原大學 國際經營與貿易學系</li>
-                    </ul>
-                    <h3 >必須非常努力才能看起來毫不費力</h3>
-                </p>
-            </section>
-            <section class="block">
-                <h2> 個人經歷</h2>
-                <ul>
-                    <li><h4>工作經驗</h4></li>
-                    <h4>50嵐 <br></h4>
-                    <p>
+        <a href="#about">個人基本資料</a>
+        <a href="#skill">個人專業技能</a>
+        <a href="#experience">個人經歷</a>
+        <a href="#footer">聯絡資訊</a>
+    </nav>
+    <section class="about" id="about">
+        <h2>個人基本資料</h2>
+        <img src="image/0021762A-A319-402E-BF5A-FF0E462ECA5B.jpg" style="border-radius: 50%; width: 200px; height: 200px; float: left; margin: 0px 250px 0px 100px;">
+        <p style="float: right; width:70% ;">
+            <ul>
+                <li>張耀元 Yao-Yuan Chang</li>
+                <li>個性: 隨和、樂觀 <br></li>
+                <li>興趣: 打籃球、羽球 <br></li>
+                <li>生日: 2001/11/03 <br></li>
+                <li>學校: 中原大學 國際經營與貿易學系</li>
+            </ul>  
+        </p>
+        <h2>必須非常努力才會顯得毫不費力</h2>
+    </section>
+    <section class="skill" id="skill">
+        <h2>個人專業技能</h2>
+    </section>
+    <section class="experience" id="experience">
+        <h2> 個人經歷</h2>
+                <div>
+                    <img src="image/work.jpg" style="border-radius:15%; width:250px;height:300px;float: left;" >
+                    <P style="text-align: center; ">
+                        <br><br><br>
+                        工作經驗-50嵐 <br>
                         從大一下學期開始就在家裡附近的50嵐飲料店打工~
                     </p>
-                    <img src="image/work.jpg" style="width:250px;height:300px" >
-                    
-                    <h4>參與PBL課程</h4>
-                    <p>大一經濟學課程與工業工程學系合作，協助他們發現問題，並有效地提生產線效率</p>
-                    <img src="image/2023-04-04 231059.png" style="width:250px;height:250px">
-                    
-                    <h4>取得人生保險業務員證照</h4>
-                    <img src="image/S__19693570.jpg" style="width:250px;height:200px">
-                </ul>
-            </section>
-            <section class="block">
-                <h2>聯絡資訊</h2>
-                <p>
-                    <ul>
-                        <li>INSRAGRAM: yuan90_11_03 <br></li>
-                        <li>FACEBOOK:張耀元 <br></li>
-                        <li>LINE ID: hank901103 <br></li>
-                        <li>連絡電話:0955358576</li>
-                    </ul>
-                </p>
-            </section>
-        </article>
-        <aside class="block">
-            <h2>個人專業技能</h2>
-        </aside>
-    </main>
-    <footer>
-        <h5>
-            EMAIL:hankz9502@gmail.com <br>
-            FACEBOOK:張耀元 <br>
-            INSRAGRAM: yuan90_11_03 <br>
-            LINE ID: hank901103 <br>
-            連絡電話:0955358576 <br>
-        </h5>
-        
-        
-
+                </div>
+                <div style="clear:left">
+                    <img src="image/2023-04-04 231059.png" style="border-radius:15%; width:250px;height:250px; float: left;">
+                    <p style="text-align: center;">
+                        <br><br><br>
+                        參與PBL課程 <br>
+                        大一經濟學課程與工業工程學系合作，協助他們發現問題，並有效地提生產線效率
+                    </p> 
+                </div>
+                <div style="clear:left">
+                    <img src="image/S__19693570.jpg" style="border-radius:15%; width:250px;height:200px; float:left;">
+                    <br><br><br>
+                    <p style="text-align: center;">
+                        取得人生保險業務員證照<br>
+                        大三上學期因為選修保險學的選修課，再加上對這個領域有一點興趣，就決定要去考，也順利地拿到我人生第一張證照!
+                    </p> 
+                            
+                </div>
+    </section>
+    <footer id="footer">
+        <h2>聯絡資訊 <br></h2>
+            <a href="https://www.facebook.com/hank.chang.330/" target="_blank"><img src="/image/fb.png" style="width: 25px;height: 25px;"></a> 
+            <a href="https://www.instagram.com/yuan90_11_03/" target="_blank" ><img src="/image/IG.png" style="width: 25px;height: 25px;"></a>
+            <a href="hankz9502@gmail.com" target="_blank"><img src="/image/email.png" style="width: 25px;height: 25px;"></a>
     </footer>
 
 </body>
